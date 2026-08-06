@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Onisom</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1c22; --muted: #5b5d68;
+    --rule: #e3e4ea; --accent: #4a4fa8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #070912; --fg: #eceef5; --muted: #a0a3b3;
+      --rule: #23263a; --accent: #a9adf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem;
+    background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 .35rem; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 .6rem; letter-spacing: -0.01em; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2.5rem; }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.15rem; }
+  li { margin: .4rem 0; }
+  .lede { font-size: 1.05rem; color: var(--muted); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Onisom · Last updated 25 July 2026</p>
+
+  <p class="lede">
+    Onisom pairs you anonymously with one other walker and shows you a shared tally of
+    the days you both walked. It is built so that we know as little about you as
+    possible. There is no account to create, no profile, and no way for you and your
+    companion to identify each other.
+  </p>
+
+  <h2>What Onisom stores</h2>
+  <ul>
+    <li><strong>An anonymous identifier.</strong> A random ID is created for you on first
+      launch. It is not linked to your name, email, phone number, or Apple ID, and you
+      never enter any of those.</li>
+    <li><strong>Your city.</strong> Chosen during setup from a list built into the app.
+      Used to show the weather where you are walking, and to send that weather — the
+      condition only, such as &ldquo;rain&rdquo; — to your companion. Only the city name is
+      stored. Onisom never asks for location permission, never uses GPS, and never knows
+      where you actually are.</li>
+    <li><strong>Your time zone.</strong> Read from your device, used to pair you with
+      someone who walks at roughly the same hours as you.</li>
+    <li><strong>A daily step count.</strong> One number per day, read from Apple Health.
+      Onisom reads this and never writes to Health. It does not read routes, workouts,
+      heart rate, or any other health data.</li>
+    <li><strong>A notification token.</strong> Only if you allow notifications. Used solely
+      to tell you that your companion walked.</li>
+    <li><strong>Your shared journey.</strong> Which anonymous companion you are paired with
+      and how many days you have both walked.</li>
+  </ul>
+
+  <h2>What Onisom does not do</h2>
+  <ul>
+    <li>It does not collect your name, email address, phone number, or photograph.</li>
+    <li>It does not collect your precise location or any GPS data.</li>
+    <li>It does not track you across other apps or websites.</li>
+    <li>It contains no advertising and no analytics or tracking software.</li>
+    <li>It does not sell or share your data with anyone for marketing.</li>
+    <li>It does not let you and your companion message each other or see each other's
+      identity, city, or step counts. You each see the other's <em>weather</em> — one of a
+      few conditions like clear, rain, or snow — and nothing that says where that weather
+      is.</li>
+  </ul>
+
+  <h2>Who else is involved</h2>
+  <ul>
+    <li><strong>Supabase</strong> hosts the database that stores the data listed above.</li>
+    <li><strong>Apple Push Notification service</strong> delivers notifications, if you
+      enabled them.</li>
+    <li><strong>Open-Meteo</strong> provides weather. It receives only the approximate
+      coordinates of the city you chose, taken from the list built into the app — the same
+      coordinates for everyone who picks that city. It never receives your identifier, your
+      device, or anything else about you.</li>
+  </ul>
+
+  <h2>Deleting your data</h2>
+  <p>
+    You can erase everything at any time from inside the app: <strong>Settings →
+    Delete everything</strong>. This permanently removes your identifier, your city, your
+    step history, your notification token, and your journey, from your device and from our
+    servers. It cannot be undone.
+  </p>
+  <p>
+    If you stop using Onisom, your account and all of the data above are deleted
+    automatically after 90 days of inactivity.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Onisom is not directed at children under 13 and does not knowingly collect data from
+    them.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    If this policy changes, the date at the top of this page changes with it.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy: <a href="support.html">Onisom support</a>.
+  </p>
+
+  <hr>
+  <footer>Onisom — someone is somewhere.</footer>
+</main>
+</body>
+</html>

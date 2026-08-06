@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Onisom</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1c22; --muted: #5b5d68;
+    --rule: #e3e4ea; --accent: #4a4fa8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #070912; --fg: #eceef5; --muted: #a0a3b3;
+      --rule: #23263a; --accent: #a9adf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem;
+    background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 .35rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .5rem; letter-spacing: -0.01em; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2.5rem; }
+  .lede { font-size: 1.05rem; color: var(--muted); }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.15rem; }
+  li { margin: .4rem 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <p class="updated">Onisom · Last updated 25 July 2026</p>
+
+  <p class="lede">
+    Onisom is a quiet app, so most questions are about what it is deliberately
+    <em>not</em> doing. Here are the common ones.
+  </p>
+
+  <h2>Nobody has been paired with me yet</h2>
+  <p>
+    Onisom looks for someone who walks in roughly your time zone. Until it finds a person,
+    it tells you so plainly, and your days still count. You do not need to keep the app
+    open — it keeps looking in the background.
+  </p>
+
+  <h2>My steps are not being counted</h2>
+  <p>
+    Onisom needs permission to read your step count from Apple Health. If you declined it,
+    the app will tell you on the main screen and show you where to fix it.
+  </p>
+  <p>
+    Step permissions are not in iOS Settings — Apple keeps them in the <strong>Health</strong>
+    app. Open <strong>Health</strong>, then go to <strong>Sharing → Apps &amp; Services →
+    Onisom</strong> and turn on <strong>Steps</strong>. Onisom only ever reads steps; it never
+    writes to Health.
+  </p>
+
+  <h2>Why can I not type my city?</h2>
+  <p>
+    Onisom asks you to pick your city from a list built into the app rather than type it.
+    That list is what turns a city name into the approximate coordinates the weather
+    lookup needs — which is how Onisom can show weather without ever asking for location
+    permission or using GPS. If your city is not on the list, pick the nearest one that is;
+    everything except the weather works exactly the same either way.
+  </p>
+
+  <h2>What does my companion see about my weather?</h2>
+  <p>
+    Only the condition — clear, rain, snow, and so on. Never your city, never your
+    coordinates, never a temperature. You see the same about them, and only while they have
+    opened the app recently; otherwise your screen simply shows your own sky.
+  </p>
+
+  <h2>Why is there no chat?</h2>
+  <p>
+    On purpose. Onisom is about knowing someone is out there, not about talking to them.
+    There are no messages, no profiles, no names, and no way for you and your companion to
+    identify each other.
+  </p>
+
+  <h2>Why are there no step counts or streaks?</h2>
+  <p>
+    Also on purpose. The only thing Onisom shows is the number of days you and your
+    companion both walked. There is no target to miss and nothing to break.
+  </p>
+
+  <h2>How do I delete my data?</h2>
+  <p>
+    In the app: <strong>Settings → Delete everything</strong>. This permanently erases your
+    account, your city, your step history and your journey, from your device and from our
+    servers. It cannot be undone. See the
+    <a href="privacy.html">privacy policy</a> for exactly what is stored.
+  </p>
+
+  <h2>Still stuck?</h2>
+  <p>
+    Email <a href="mailto:alishersv.dev@outlook.com">alishersv.dev@outlook.com</a> and
+    describe what happened. Onisom stores no personal information, so please include your
+    device model and iOS version — there is nothing on our side to look you up by.
+  </p>
+
+  <h2>Credits</h2>
+  <p>
+    City names and coordinates come from <a href="https://www.geonames.org">GeoNames</a>,
+    used under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    licence. Weather comes from <a href="https://open-meteo.com">Open-Meteo</a>.
+  </p>
+
+  <hr>
+  <footer>Onisom — someone is somewhere.</footer>
+</main>
+</body>
+</html>
