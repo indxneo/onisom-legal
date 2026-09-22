@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onisom</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1c22; --muted: #5b5d68; --accent: #4a4fa8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #070912; --fg: #eceef5; --muted: #a0a3b3; --accent: #a9adf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 3rem 1.25rem;
+    background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 30rem; text-align: center; }
+  h1 { font-size: 2.2rem; letter-spacing: .02em; font-weight: 600; margin: 0 0 .5rem; }
+  .tagline { color: var(--muted); margin: 0 0 3rem; }
+  nav a {
+    display: inline-block; margin: 0 .75rem; color: var(--accent);
+    text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px;
+  }
+  nav a:hover { opacity: .75; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ONISOM</h1>
+  <p class="tagline">someone is somewhere</p>
+  <nav>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+  </nav>
+</main>
+</body>
+</html>

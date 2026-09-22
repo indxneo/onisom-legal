@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Onisom</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1c22; --muted: #5b5d68;
+    --rule: #e3e4ea; --accent: #4a4fa8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #070912; --fg: #eceef5; --muted: #a0a3b3;
+      --rule: #23263a; --accent: #a9adf0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem;
+    background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 .35rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .5rem; letter-spacing: -0.01em; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2.5rem; }
+  .lede { font-size: 1.05rem; color: var(--muted); }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.15rem; }
+  li { margin: .4rem 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <p class="updated">Onisom &middot; Last updated 22 September 2026</p>
+
+  <p class="lede">
+    Onisom is a quiet app, so most questions are about what it is deliberately
+    <em>not</em> doing. Here are the common ones.
+  </p>
+
+  <h2>What am I actually making?</h2>
+  <p>
+    A picture. Every day you walk far enough uncovers a piece of it, and when the last
+    piece lands the picture is yours &mdash; it moves to <strong>Pictures</strong>, where
+    everything you have made is kept. A new journey then begins with a new picture.
+  </p>
+  <p>
+    Walking further in a day uncovers more than one piece: there are three rungs, and you
+    reach as many of them as you walk. If you are walking with someone, a piece appears on
+    the days you <em>both</em> walked, at the rung you both reached.
+  </p>
+
+  <h2>How do I walk with someone?</h2>
+  <p>
+    You invite them. Go to <strong>Settings &rarr; Together &rarr; Walk with
+    someone</strong>, and Onisom gives you a short code to send however you like &mdash; a
+    message, an email, out loud. They enter it under <strong>Their code</strong> on the
+    same screen, and from then on you are making one picture together.
+  </p>
+  <p>
+    Onisom never matches you with a stranger and has no way to find people for you. If you
+    invite nobody, your journey is simply your own, and it is not a lesser version &mdash;
+    it is the same picture, made alone.
+  </p>
+  <p>
+    Joining someone puts away the journey you were on. You keep the picture you had made
+    so far; it is in <strong>Pictures</strong>, and you can pick it up again whenever you
+    like.
+  </p>
+
+  <h2>Do I have to open the app every day?</h2>
+  <p>
+    Ideally, yes, briefly &mdash; and this is the one thing worth knowing about how Onisom works.
+    It reads your step count from Apple Health on iPhone, or Health Connect on Android, <strong>when you open it</strong>, not while
+    it is closed. If a day goes by without a look, the next time you open Onisom it goes
+    back and counts that day too &mdash; <strong>as long as that is within a few days</strong>.
+    A day older than that cannot be counted later.
+  </p>
+  <p>
+    So if you walk every day but only open the app once a week, most of those days cannot
+    count. Opening it for a moment is enough &mdash; there is nothing to start, press or
+    finish. If Onisom notices that a day went by without a look, it will quietly say so on
+    the journey screen.
+  </p>
+
+  <h2>My steps are not being counted</h2>
+  <p>
+    Onisom needs permission to read your step count &mdash; from Apple Health on iPhone, or Health Connect on Android. If you declined it,
+    the app will tell you on the main screen and show you where to fix it &mdash; or open
+    <strong>Settings &rarr; Not seeing your steps?</strong> at any time.
+  </p>
+  <p>
+    <strong>On iPhone, step permissions are not in iOS Settings</strong> &mdash; Apple keeps them in the
+    Health app. Open <strong>Health</strong>, then go to <strong>Sharing &rarr; Apps
+    &amp; Services &rarr; Onisom</strong> and turn on <strong>Steps</strong> (and
+    <strong>Walking + Running Distance</strong>, if you want to see how far you went).
+    Onisom only ever reads from Health; it never writes to it.
+  </p>
+
+  <h2>Why can I not type my city?</h2>
+  <p>
+    Onisom asks you to pick your city from a list built into the app rather than type it.
+    That list is what turns a city name into the approximate coordinates the weather
+    lookup needs &mdash; which is how Onisom can show weather without ever asking for location
+    permission or using GPS. If your city is not on the list, pick the nearest one that is;
+    everything except the weather works exactly the same either way.
+  </p>
+
+  <h2>What does my companion see about my weather?</h2>
+  <p>
+    Only the condition &mdash; clear, rain, snow, and so on. Never your city, never your
+    coordinates, never a temperature. You see the same about them, and only while they have
+    opened the app recently; otherwise your screen simply shows your own sky.
+  </p>
+
+  <h2>Why is there no chat?</h2>
+  <p>
+    On purpose. Onisom is about knowing someone is out there, not about talking to them.
+    There are no messages, no profiles and no feed. You invited this person, so you know
+    who they are &mdash; and you can give them a name in
+    <strong>Settings &rarr; Together</strong>, which is stored only on your own phone.
+    What you never see is their step count; only whether a day was shared.
+  </p>
+
+  <h2>What do the numbers on the journey screen mean?</h2>
+  <p>
+    They are all about you. The card for the day shows your own step count so far and the
+    number of steps that counts a day, and how far you have walked if you asked for that.
+    Above it, the journey says how many days have counted so far.
+  </p>
+  <p>
+    You never see your companion&rsquo;s numbers at all &mdash; only whether a day was shared.
+    There are no streaks, no rings, no badges and no leaderboards, and nothing is ever
+    compared with anyone else. Nothing can be lost: a day you miss is simply a day the
+    picture waits.
+  </p>
+
+  <h2>Can I change the units, the language or the appearance?</h2>
+  <p>Yes, all three, in <strong>Settings</strong>.</p>
+  <p>
+    <strong>Units</strong> lets you pick &deg;C or &deg;F for the weather, and kilometres or miles
+    for distance. Each has an <strong>Automatic</strong> option, which follows the region your
+    phone is set to and tells you which unit that works out as. The two are separate on
+    purpose: plenty of places read temperature in Celsius and walk in miles.
+  </p>
+  <p>
+    <strong>Language</strong> offers English, Espa&ntilde;ol and &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;, or <strong>Match iPhone</strong> (<strong>Match system</strong> on Android)
+    to follow your device. Onisom is written in those three; on a device set to any other
+    language you will see that language&rsquo;s system wording and English for Onisom&rsquo;s own
+    words. Choosing a language here also changes how numbers and dates are written, but it
+    does not change your units &mdash; those follow your phone&rsquo;s region, because the
+    language you read is not necessarily the region you live in.
+  </p>
+  <p>
+    It also decides the language of the one notification Onisom sends, so that arrives in
+    the language you read the app in rather than the one your phone is set to.
+  </p>
+  <p><strong>Appearance</strong> offers Light, Dark, or Match iPhone &mdash; <strong>Match system</strong> on Android.</p>
+
+  <h2>What happens if I get a new phone?</h2>
+  <p>
+    Onisom has no account, sign-in or password, so your journeys and pictures belong to the
+    phone you use it on. They <strong>cannot be moved to a new phone</strong>: on a new phone,
+    Onisom starts again with a new journey. On iPhone, removing the app and installing it
+    again on the same phone keeps everything. On Android, removing the app loses them.
+    Anything left unused is deleted automatically after 90 days, as the
+    <a href="privacy.html">privacy policy</a> describes.
+  </p>
+
+  <h2>How do I delete my data?</h2>
+  <p>
+    In the app: <strong>Settings &rarr; Delete everything</strong>. This permanently erases your
+    account, your city, your step history, your journeys and the pictures you kept, from
+    your device and from our servers. It cannot be undone. See the
+    <a href="privacy.html">privacy policy</a> for exactly what is stored.
+  </p>
+
+  <h2>Still stuck?</h2>
+  <p>
+    Email <a href="mailto:alishersv.dev@outlook.com">alishersv.dev@outlook.com</a> and
+    describe what happened. Onisom stores no personal information, so please include your
+    device model and operating-system version &mdash; there is nothing on our side to look you up by. If you
+    can, include the version number from <strong>Settings &rarr; About</strong>.
+  </p>
+
+  <h2>Credits</h2>
+  <p>
+    City names and coordinates come from <a href="https://www.geonames.org/">GeoNames</a>,
+    used under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    licence. Weather comes from <a href="https://open-meteo.com/">Open-Meteo</a>.
+  </p>
+</main>
+</body>
+</html>
